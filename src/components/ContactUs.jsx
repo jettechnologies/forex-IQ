@@ -47,7 +47,7 @@ const ContactUs = () => {
   };
 
   return (
-    <Box bg={"#011b3d"} py={{ base: 8, lg: 16 }} px={4}>
+    <Box id="contact-us" bg={"#011b3d"} py={{ base: 8, lg: 16 }} px={4} minHeight="calc(100vh + 4rem)">
       <Container maxW="screen.md" mx="auto">
         <Heading as="h2" size="2xl" mb={4} textAlign="center" fontWeight="extrabold" color={"white"}>
           Contact Us
