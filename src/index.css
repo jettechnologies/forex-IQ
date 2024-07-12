@@ -1,0 +1,10 @@
+
+
+/* Add this to the global CSS file or in Chakra's theme customization */
+button {
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5), 0 0 20px rgba(0, 255, 255, 0.5);
+}
