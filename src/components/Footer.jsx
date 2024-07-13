@@ -28,10 +28,10 @@ const Footer = () => {
                 <Link href="/" _hover={{ textDecoration: 'underline' }}>
                   Home
                 </Link>
-                <Link href="/" _hover={{ textDecoration: 'underline' }}>
+                <Link href="/#about-us" _hover={{ textDecoration: 'underline' }}>
                   About Us
                 </Link>
-                <Link href="/" _hover={{ textDecoration: 'underline' }}>
+                <Link href="/#contact-us" _hover={{ textDecoration: 'underline' }}>
                   Contact Us
                 </Link>
               </Stack>

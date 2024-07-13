@@ -2,10 +2,12 @@
 import { Box, Text } from '@chakra-ui/react';
 import Banner from './Banner';
 import Footer from '../components/Footer';
+import banner from "../assets/charts.jpg";
+
 
 const Privacy = () => (
   <Box>
-    <Banner title="Privacy Policy" subtitle="Privacy policy page" />
+    <Banner title="Privacy Policy" subtitle="Privacy policy page" banner = {banner} />
     <Box p={4}>
       <Text fontSize="lg" lineHeight="1.5em">
         {/* <h2>Privacy Policy</h2> */}

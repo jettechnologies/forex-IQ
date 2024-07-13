@@ -2,10 +2,12 @@
 import { Box, Text } from '@chakra-ui/react';
 import Banner from '../components/Banner';
 import Footer from '../components/Footer';
+import banner from "../assets/charts_2.jpg";
+
 
 const Refund = () => (
   <Box>
-    <Banner title="Refund Policy" subtitle="Refund policy page" />
+    <Banner title="Refund Policy" subtitle="Refund policy page" banner = {banner}/>
     <Box p={4}>
       <Text fontSize="lg" lineHeight="1.5em">
         <p><b>Eligibility for Refunds:</b></p>

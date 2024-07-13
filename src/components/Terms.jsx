@@ -2,10 +2,11 @@
 import { Box, Text } from '@chakra-ui/react';
 import Banner from '../components/Banner';
 import Footer from '../components/Footer';
+import banner from "../assets/charts_3.jpg";
 
 const Terms = () => (
   <Box>
-    <Banner title="Terms and Conditions" subtitle="Terms and conditions" />
+    <Banner title="Terms and Conditions" subtitle="Terms and conditions" banner={banner}/>
     <Box p={4}>
       <Text fontSize="lg" lineHeight="1.5em">
         <p><b>License and Usage:</b> The Forex IQ grants you a non-exclusive, non-transferable, limited license to use for personal or business purposes, in accordance with these Terms. You must be of legal age to use in the Forex markets. By using the software, you confirm that you meet the legal age requirement.</p>
