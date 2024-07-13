@@ -89,7 +89,7 @@ const Header = () => {
           position="relative"
           textAlign="center"
         >
-          <Box width = {{base: "100%"}} px= {10}>
+          <Box width = {{base: "100%"}}>
             <Heading fontSize={{ base: "xl", md: "4xl", lg: "5xl" }} mb={4}>
               Unleash the power of AI Trading
             </Heading>
