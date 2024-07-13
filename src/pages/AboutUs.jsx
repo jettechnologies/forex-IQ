@@ -490,14 +490,14 @@ const AboutUs = () => {
   };
 
   return (
-    <Box color="white" py={20} px={10} bg="#0e1113">
+    <Box color="white" bg="#0e1113">
       <Banner 
         title="About Us"
         subtitle="Welcome to Forex IQ - Your Gateway to Algorithmic Trading in the Indian Markets!"
         height="100vh" 
         banner={banner}// Make the banner take the full height of its area
       />
-      <Grid templateColumns={{ base: "1fr", lg: "1fr 1fr" }} gap={10}>
+      <Grid templateColumns={{ base: "1fr", lg: "1fr 1fr" }} gap={10} px ={{base: 10, md: 20}}>
         <motion.div initial="hidden" whileInView="visible" variants={contentVariants} viewport={{ once: true }}>
           <VStack spacing={6} align="flex-start">
             <Heading as="h2" size="xl" mb={4} textTransform={"capitalize"}>

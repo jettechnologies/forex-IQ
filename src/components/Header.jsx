@@ -79,6 +79,7 @@ const Header = () => {
           zIndex={1}
         />
         <Flex
+          width = "100%"
           height="100%"
           align="center"
           justify="center"
@@ -88,14 +89,13 @@ const Header = () => {
           position="relative"
           textAlign="center"
         >
-          <Box>
-            <Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }} mb={4}>
+          <Box width = {{base: "100%"}} px= {10}>
+            <Heading fontSize={{ base: "xl", md: "4xl", lg: "5xl" }} mb={4}>
               Unleash the power of AI Trading
             </Heading>
             <Text 
               fontSize={{ base: "md", md: "lg", lg: "xl" }} 
-              mb={8} 
-              whiteSpace="nowrap" 
+              mb={8}  
               overflow="hidden" 
               borderRight="0.15em solid white" 
               animation={`${typing} 3.5s steps(40, end) 1s, ${blink} 0.75s step-end infinite`}
