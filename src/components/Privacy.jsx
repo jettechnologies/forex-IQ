@@ -1,7 +1,6 @@
 // pages/PrivacyPolicyPage.js
 import { Box, Text } from '@chakra-ui/react';
 import Banner from './Banner';
-import Footer from '../components/Footer';
 import banner from "../assets/charts.jpg";
 
 
@@ -28,7 +27,6 @@ const Privacy = () => (
         <p><b>Changes to Privacy Policy:</b> The Forex IQ may update this Privacy Policy to reflect changes in our practices or legal requirements. Users will be notified of any significant changes via email or a notice on the software.</p>
       </Text>
     </Box>
-    <Footer />
   </Box>
 );
 

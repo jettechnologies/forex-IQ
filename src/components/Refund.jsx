@@ -1,7 +1,6 @@
 // pages/RefundPolicyPage.js
 import { Box, Text } from '@chakra-ui/react';
 import Banner from '../components/Banner';
-import Footer from '../components/Footer';
 import banner from "../assets/charts_2.jpg";
 
 
@@ -25,7 +24,6 @@ const Refund = () => (
         <p>We appreciate your understanding and thank you for choosing The Forex IQ. By using The Forex IQ, you consent to the practices described in this Privacy Policy. Please use the software responsibly and in compliance with applicable laws and regulations in the Forex markets.</p>
       </Text>
     </Box>
-    <Footer />
   </Box>
 );
 

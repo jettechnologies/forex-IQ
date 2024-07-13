@@ -1,7 +1,6 @@
 // pages/TermsAndConditionsPage.js
 import { Box, Text } from '@chakra-ui/react';
 import Banner from '../components/Banner';
-import Footer from '../components/Footer';
 import banner from "../assets/charts_3.jpg";
 
 const Terms = () => (
@@ -20,7 +19,6 @@ const Terms = () => (
         <p><b>Amendments:</b> The Forex IQ may update or modify these Terms at any time. Continued use of the software following any changes constitutes acceptance of the revised Terms.</p>
       </Text>
     </Box>
-    <Footer />
   </Box>
 );
 
