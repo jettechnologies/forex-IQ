@@ -1,6 +1,6 @@
 // pages/PrivacyPolicyPage.js
 import { Box, Text } from '@chakra-ui/react';
-import Banner from './Banner';
+import Banner from '../components/Banner';
 import banner from "../assets/charts.jpg";
 
 
